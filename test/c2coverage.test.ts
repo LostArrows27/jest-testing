@@ -2,7 +2,6 @@ import { evaluateAdmission } from "..";
 
 // NOTE: white box testing with C2 Coverage
 describe("Admission Check", () => {
-  // NOTE: Kiểm thử biên mạnh với 1 số test case
   test("Case 1: (-1, 12) -> đầu vào không hợp lệ", () => {
     expect(evaluateAdmission(-1, 12)).toBe("đầu vào không hợp lệ");
   });
